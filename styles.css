@@ -1,0 +1,240 @@
+/* Resetting some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Section */
+header {
+  background-color: #003366; /* Dark Blue */
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header .logo img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  color: #003366; /* Dark Blue */
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.hero .store-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+/* About Section */
+.about {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  color: #003366; /* Dark Blue */
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.2em;
+}
+
+.about ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about li {
+  font-size: 1.1em;
+  margin: 10px 0;
+  line-height: 1.8;
+}
+
+.about li strong {
+  color: #003366; /* Dark Blue */
+}
+
+/* Why Choose Us Section */
+.why-choose {
+  background-color: #003366; /* Dark Blue */
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+}
+
+.why-choose h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 22%;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #003366; /* Dark Blue */
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  color: #003366; /* Dark Blue */
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1.1em;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  color: #003366; /* Dark Blue */
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333; /* Dark Gray */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1em;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  header p {
+    font-size: 1.1em;
+  }
+
+  .hero h2 {
+    font-size: 2em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .about h2 {
+    font-size: 2em;
+  }
+
+  .about li {
+    font-size: 1em;
+  }
+
+  .why-choose h2 {
+    font-size: 2em;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .contact h2 {
+    font-size: 2em;
+  }
+
+  .contact p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  .hero h2 {
+    font-size: 1.8em;
+  }
+
+  .feature h3 {
+    font-size: 1.2em;
+  }
+
+  .feature p {
+    font-size: 1em;
+  }
+}
